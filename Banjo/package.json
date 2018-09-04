@@ -1,0 +1,14 @@
+{
+  "name": "Banjo",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "description": "The Banjo band website.",
+  "repository": "https://github.com/coming-soon",
+  "author": "Mike Portman",
+  "private": true,
+  "dependencies": {
+    "prettier": "1.12.1"
+  },
+  "devDependencies": {}
+}

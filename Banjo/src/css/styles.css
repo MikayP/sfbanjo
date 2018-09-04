@@ -1,0 +1,330 @@
+.backgroundcolor {
+    background: linear-gradient(rgb(24, 18, 30), rgb(35, 50, 55));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*navbar*/
+.fader {
+    display: none;
+}
+
+.jumbo {
+    margin-top: -40px;
+}
+
+.navs {
+    font-family: 'Yellowtail', cursive;
+    color: white;
+    text-shadow: 2px 2px 5px #984b43;
+    text-align: center;
+
+}
+
+.heading {
+    width: 100%;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.navmenus {
+    font-family: 'Amaranth', sans-serif;
+    text-shadow: 2px 2px 5px #984b43;
+}
+
+.head1 {
+    font-size: 3em;
+}
+
+.head2 {
+    font-size: 1.6em;
+
+}
+
+.links {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+}
+
+.newsHeader {
+    padding: 25px;
+    font-family: 'Yellowtail', cursive;
+    color: white;
+    text-align: center;
+    font-size: 3 . em;
+}
+
+.mainImage {
+    width: 100%;
+    height: auto;
+
+}
+
+/* About*/
+
+.slidePhotos {
+    filter: grayscale(100);
+    width: 252px;
+    height: 172px;
+    object-fit: fill;
+    margin: 2px;
+    border: solid white 1px;
+    transition: .5s;
+}
+
+.slidePhotos:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.aboutText {
+    border-radius: 30px;
+    padding: 20px;
+    border: solid white 2px;
+
+}
+
+.history {
+    text-align: center;
+    color: white;
+    height: 100%;
+    font-size: 1.3em;
+}
+
+.text {
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.aboutP {
+    font-size: 1.5rem;
+}
+
+/*Media Page*/
+
+.modalsize {
+    width: 1055px;
+}
+
+.modal-title {
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    text-align: center
+}
+
+.modalBackground {
+    background-color: black;
+
+}
+
+.video-container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 0;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position:relative;
+    padding:0;
+}
+
+.close {
+    position:absolute;
+    right:-30px;
+    top:0;
+    z-index:999;
+    font-size:2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+}
+
+/*schedule page*/
+
+.malloys {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border: solid white 1px;
+}
+
+.mallLink {
+    color: white;
+    text-align: center;
+    border: solid white 2px;
+    width: 30%;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.mallLink:link, .mallLink:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.mallLink:hover, .mallLink:active {
+    background-color: #e03a3a;
+    text-decoration: underline;
+}
+
+.malltext {
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+
+}
+
+.heads {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+
+}
+
+.malloysMap {
+    height: 50%;
+}
+
+.malloysText {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mapcenter {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.mallArticle {
+    height: 450px;
+    padding: 20px;
+    border-radius: 8px;
+    border: solid white 2px;
+}
+
+/*contact*/
+
+li {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.form-group {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%
+
+}
+
+.formLabel {
+    color: white;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2em;
+}
+
+.button {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.buttonbackground {
+    background-color: white;
+    color: black;
+    width: 180px;
+    border-radius: 8px;
+}
+
+.buttonbackground:hover, .buttonbackground:active {
+    background-color: #e03a3a;
+}
+
+/*Join Band*/
+
+.joinus {
+    border-radius: 30px;
+    padding: 20px;
+    border: solid white 2px;
+    height: 507px;
+    min-width: 400px;
+}
+
+.joinwidth {
+    width: 100%;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 767px) {
+    body {
+        padding-top: 100px;
+    }
+
+    .links {
+        width: 100%;
+    }
+
+    .navigation {
+        border-top: solid white 2px;
+    }
+
+    .navmobile {
+        border-bottom: solid white 2px;
+    }
+
+}
+
+@media screen and (min-width: 558px) {
+
+    body {
+        padding-top: 103px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .links {
+        position: relative;
+        top: 30%;
+        transform: translate%(-50%);
+    }
+
+    .jumbo {
+        border-bottom: solid white 5px;
+    }
+
+    .navmobile, head1 {
+        height: 45px;
+        font-size: 2.1rem;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .mallArticle {
+        margin-bottom: 25px;
+    }
+
+}
+

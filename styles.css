@@ -1,0 +1,352 @@
+body{
+    background-color: #141e40;
+    
+}
+
+
+/*navbar*/
+.fader{
+    display:none;
+}
+
+.topheader{
+    position:relative;
+     background-color: #141e40;
+}
+
+.headertext{
+font-family: 'Yellowtail', cursive;
+color:white;
+ text-shadow: 2px 2px 5px #000;
+font-size:3em;
+    margin-right:200px
+    
+}
+
+.newsHeader{
+       font-family: 'Amaranth', sans-serif;
+    color:white;
+    text-align: center;
+        font-size:4rem;
+     text-shadow: 2px 2px 5px #000;
+}
+
+.navtext{
+    font-size:2.3em;
+margin-right:35px;
+
+
+   font-family: 'Amaranth', sans-serif;
+    text-shadow: 2px 2px 5px #000000;
+    color:white;
+}
+
+.fa.fa-bars{
+    color:white;
+        font-size:45px;
+    text-shadow:2px 2px 5px black;
+}
+
+.head1{
+    font-size:3em;
+}
+
+.head2{
+    font-size:1.6em;
+
+}
+
+.links {
+    text-align: center;
+    color:white;
+    margin:0 auto;
+    font-size:1.3rem;
+    padding-bottom: 15px;
+}
+
+
+
+.mainImage{
+
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+
+}
+
+
+/* About*/
+
+
+.slidePhotos{
+    filter:grayscale(100);
+    width:252px;
+    height:172px;
+   object-fit: fill;
+    margin:2px;
+    border: solid white 1px;
+    transition:.5s;
+}
+
+.slidePhotos:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
+
+.aboutText{
+  border-radius:30px;
+    padding:20px;
+  border: solid white 2px;
+
+}
+.history{
+   text-align: center;
+    color:white;
+    height:100%;
+    font-size:1.3em;
+}
+
+.text{
+    padding-top: 40px;
+    text-align: center;
+    color:white;
+}
+
+.aboutP{
+        font-size:1.5rem;
+}
+
+
+/*Media Page*/
+
+.modalsize{
+    width:1055px;
+}
+
+.modal-title{
+    margin:0 auto;
+    width:100%;
+    color:white;
+    text-align: center
+}
+.modalBackground{
+    background-color:black;
+    
+}
+
+xbutton{
+    color:white;
+}
+
+.music{
+   text-align: center;
+    padding:20px;
+}
+/*schedule page*/
+
+.malloys{
+    width:100%;
+    height:auto;
+    max-width: 500px;
+    padding: 20px;
+   margin:0 auto;
+    border:solid white 1px;
+}
+.mallLink{
+    color:white;
+    text-align: center;
+     border:solid white 2px;
+    width:30%;
+    margin:10px auto;
+    padding:5px;
+    border-radius: 8px;
+}
+
+.mallLink:link, .mallLink:visited{
+text-decoration: none;
+    color:white;
+}
+
+
+.mallLink:hover, .mallLink:active{
+    background-color:#e03a3a;
+     text-decoration: underline;
+}
+
+
+.malltext{
+    color:white;
+    text-align: center;
+    font-size:1.8em;
+    
+}
+.heads{
+    color:white;
+    text-align: center;
+   font-size: 2.5em;
+    
+}
+
+.malloysMap{
+    height:50%;
+}
+
+.malloysText{
+   position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+
+.map{
+    margin:0 auto;
+}
+
+.molloyscont{
+    width:95%;
+    margin:0 auto;
+}
+
+.mallArticle{
+    width:auto;
+    height:450px;
+ padding: 20px;
+    border-radius: 8px;
+      border:solid white 2px;
+}
+
+/*contact*/
+
+li{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.form-group{
+    margin: 0 auto;
+    text-align: center;
+    width:50%
+    
+}
+
+.formLabel{
+    color:white;
+    font-family: 'Yellowtail', cursive;
+    font-size:2em;
+}
+
+.button{
+    margin: 0 auto;
+    width:80%;
+text-align: center;
+}
+
+.buttonbackground{
+    background-color:white;
+    color:black;
+    width:180px;
+    border-radius: 8px;
+}
+
+.buttonbackground:hover, .buttonbackground:active{
+    background-color:#e03a3a;
+}
+
+.captcha{
+padding:20px;
+}
+
+
+/*Join Band*/
+
+.joinus{
+  border-radius:30px;
+    padding:20px;
+  border: solid white 2px;
+    max-height:615px;
+    min-width: 475px;
+    margin:0;
+}
+
+
+.joinwidth{
+    width:100%;
+}
+.joinText{
+  border-radius:30px;
+    padding:10px;
+  border: solid white 2px;
+
+}
+
+/*Media Page*/
+
+.mcont span{
+padding:15px;
+}
+
+
+
+
+/*Media Queries*/
+
+/*
+@media screen and (max-width:767px){
+      body{padding-top: 100px;}
+    .links{
+        width:100%;
+    }
+    .navigation{
+        border-top:solid white 2px;
+    }
+    .navmobile{
+        border-bottom: solid white 2px;
+    }
+
+    
+
+}
+*/
+
+
+@media screen and (min-width:992px){
+    .headertext{
+        margin-right:50px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .mallArticle{
+        margin-bottom: 25px;
+    }
+    .topheader{
+        width:100%;
+      border-bottom: solid white 2px;
+    }
+    .navbar-nav{
+        width:65%;
+    }
+   .navbar-nav, .navtext{
+        text-align: center;
+        padding: 15px;
+       margin:0 auto;
+    }
+    
+    .navtext{
+        width:100%;
+    }
+    
+    .headertext{
+        margin:0 auto;
+
+    }
+    :not(:last-child).navtext {border-bottom: solid white 2px;
+    }
+    
+}
+@media screen and (max-width:1280px){
+.joinText{
+margin-left:50px;
+    margin-right:50px;
+}
+}
