@@ -41,12 +41,6 @@ margin-right:35px;
     color:white;
 }
 
-.fa.fa-bars{
-    color:white;
-        font-size:45px;
-    text-shadow:2px 2px 5px black;
-}
-
 .head1{
     font-size:3em;
 }
@@ -71,6 +65,8 @@ margin-right:35px;
   width: auto ;
   max-width: 100% ;
   height: auto ;
+  object-fit:scale-down;
+
 
 }
 
@@ -312,6 +308,10 @@ padding:15px;
 @media screen and (min-width:992px){
     .headertext{
         margin-right:50px;
+
+    }
+     .topheader{
+          padding: 50px;
     }
 }
 
@@ -349,4 +349,7 @@ padding:15px;
 margin-left:50px;
     margin-right:50px;
 }
+    .topheader{
+          padding: 50px;
+    }
 }
