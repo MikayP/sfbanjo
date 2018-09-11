@@ -1,6 +1,6 @@
 //const modal = "#myModal"
 //const video = "#video1"
-
+//
 //$('#myModal').on('hidden.bs.modal', function (e) {
 // $("#video1").trigger("stop");
 //})
@@ -20,7 +20,7 @@ $('.fader').fadeIn(3000);
 //});
 
 // MDB Lightbox Init
-//$(function () {
-//    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-//});
+$(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
 
