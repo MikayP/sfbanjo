@@ -1,25 +1,3 @@
-<!--
-<?php
-    if(isset($POST['ContactButton'])){
-        $url = 'htpps://www.google.com/recaptcha/api/siteverify';
-        $privatekey = "6LdJGm4UAAAAAOIW2bdFw6d8-WuRI9O6-wmts3yf";
-        
-        $response = file_get_contents($url."?secret=".$privatekey."&response=".$_POST['g-recaptcha-response']."&remoteip=".$_SERVER['REMOTE_ADDR']);    
-        $data = json_decode($response);
-        
-        if(isset($data->success) AND $data->success==true){
-        
-        header('Location: ExampleCaptcha.php?CaptchaPass=True')
-        
-        }else{}
-            header('Location: ExampleCaptcha.php?CaptchaFail=True')
-    }
-
-
-
-?>
--->
-
 <!doctype html>
 <html>
 <head>
@@ -33,6 +11,7 @@
      <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
    <script src='https://www.google.com/recaptcha/api.js'></script>
+     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
