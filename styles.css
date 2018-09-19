@@ -5,6 +5,8 @@ body{
     position: relative;
 }
 
+
+
 footer{
     text-align: center;
         color:white;
@@ -358,22 +360,27 @@ iframe{
         padding: 20px;
     }
 
-    .joincontainer {
-
-
-    }
-
     .joinus {
         float: left;
     padding:12px;
     margin: 0 10px 3px;
-
     }
 
     .aboutP{
            font-size:1.8rem;
     }
+    .slidewrapper{
+        float:left;
+
+        margin:0;
+    }
+
+    .textwrapper{
+     margin:0;
+
+    }
 }
+
 
 @media screen and (max-width:991px) {
     .mallArticle {
